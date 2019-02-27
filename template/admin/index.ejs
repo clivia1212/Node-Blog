@@ -4,9 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title><%= title %></title>
+  <title>管理后台</title>
 </head>
 <body>
-  <%= a%>+<%= b%>=<%= a + b%>
+  <div class="page">
+    <% include components/top.inc.ejs %>
+    <div class="content-wrap">
+      我是管理首页
+    </div>
+  </div>
 </body>
 </html>
